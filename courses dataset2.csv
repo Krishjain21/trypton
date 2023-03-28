@@ -1,0 +1,56 @@
+name,course_title,mode,price,no of votes,Rating,lectures,Hours,level,instructor_name,url
+udacity,front end web developer,paid,"77,769","2,004",4.2,254,80,intermediate,rachel manning,https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011
+udacity,full stack wev developer,paid,"77,769","1,012",4.4,260,74,intermediate,amy hua,https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd0044
+udacity,learn kotlin,paid,"77,769","1,005",4.4,240,45.5,intermediate,dan galpin,https://www.udacity.com/course/android-kotlin-developer-nanodegree--nd940
+udacity,become an ios developer,paid,"77,769","12,904",4.6,456,58,intermediate,jarrod parkes,https://www.udacity.com/course/ios-developer-nanodegree--nd003
+udacity,ai programming with python,paid,"58,257",678,4.6,476,120,intermediate,ortal arel,https://www.udacity.com/course/ai-programming-python-nanodegree--nd089
+udacity,artifical intelligence for trading,paid,"116,514",789,4.6,567,111.5,advanced,cindy lin,https://www.udacity.com/course/ai-for-trading--nd880
+udacity,become a data scientist,paid,"77,676","1,218",4.7,345,88.5,intermediate,josh bernhard,https://www.udacity.com/course/data-scientist-nanodegree--nd025
+udacity,data science with aws,paid,"77,676","1,808",4.6,456,78.5,intermediate,amanda moran,https://www.udacity.com/course/data-engineer-nanodegree--nd027
+udacity,data structure and algorithms,paid,"77,767",850,4.7,293,34,intermediate,abe feinberg,https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256
+udacity,Deep Learning,paid,"77,767","3,370",4.7,366,155,advanced,Erick Galinkin,https://www.udacity.com/course/deep-learning-nanodegree--nd101
+udacity,UX Designer,paid,"77,767","1,033",4.7,128,110,intermediate,Shuang Liu,https://www.udacity.com//course/ux-designer-nanodegree--nd578
+udacity,SQL,paid,"77,767",342,4.6,85,166,intermediate,Malavica Sridhar,https://www.udacity.com//course/learn-sql--nd072
+udacity,Machine Learning DevOps Engineer,paid,"77,767","1,233",None,171,178,intermediate,Joshua Bernhard,https://www.udacity.com//course/machine-learning-dev-ops-engineer-nanodegree--nd0821
+udacity,React,paid,"77,767","1,450",4.6,258,68,advanced,Andrew Wong,https://www.udacity.com//course/react-nanodegree--nd019
+udacity,AI for Healthcare,paid,"77,767","1,899",4.6,257,100,intermediate,Nikhil Bikhchandani,https://www.udacity.com//course/ai-for-healthcare-nanodegree--nd320
+udacity,Data Product Manager,paid,"77,767","1,544",4.4,192,117,intermediate,JJ Miclat,https://www.udacity.com//course/data-product-manager-nanodegree--nd030
+udacity,Java Programming,paid,"77,767",925,None,192,78,advanced,Jeff Phillips,https://www.udacity.com//course/java-programming-nanodegree--nd079
+udacity,Android Kotlin Developer,paid,"77,767",886,4.7,260,187,advanced,Dan Galpin,https://www.udacity.com//course/android-kotlin-developer-nanodegree--nd940
+coursera,web design for everybody,not paid ,0,"24,117",4.8,254,42,beginner,collen vant len,https://www.coursera.org/specializations/web-design
+coursera,intrduction to web development,not paid ,0,"1,013",4.5,254,208,all level,upkar lidder,https://www.coursera.org/learn/introduction-to-web-development-with-html-css-javacript
+coursera,meta andriod developer,paid,"3,323",698,4.7,150,27.5,beginner,meta professors,https://www.coursera.org/professional-certificates/meta-android-developer
+coursera,andriod app dvelopment specialization,paid,"8,058","2,778",4.5,250,30.5,intermediate,jerry roth,https://www.coursera.org/specializations/android-app-development
+coursera,machine learning specialization,paid,"8,058","9,273",4.9,64,10,beginner,andrew ng,https://www.coursera.org/specializations/machine-learning-introduction
+coursera,ibm machine learning,paid,"6,414","1,056",4.6,88,20.5,intermediate,joseph santracagelo,https://www.coursera.org/professional-certificates/ibm-machine-learning
+coursera,ibm data science,paid,"5,655","61,797",4.6,120,20.5,beginner,rav ahuja,https://www.coursera.org/professional-certificates/ibm-data-science
+coursera,introduction to data science specialization,paid,"6,414","11,858",4.7,85,18.5,beginner,rav ahuja,https://www.coursera.org/specializations/introduction-data-science
+coursera,oops java programming and dsa beyond specialization,paid,"8,058","3,338",4.8,323,30.5,intermediate,mia minnes,https://www.coursera.org/specializations/java-object-oriented
+coursera,meta back end developer professional certificate,paid,"3,233","2,368",4.7,500,28,beginner,not mentioned ,https://in.coursera.org/professional-certificates/meta-back-end-developer#instructors
+coursera,algorithms part 01,paid,"8,058","10,280",4.9,284,28.5,intermediate,kevin wayne,https://www.coursera.org/learn/algorithms-part1
+coursera,introduction to frond end development,paid,"3,223","2,321",4.8,5182,18,beginner,not mentioned ,https://in.coursera.org/learn/introduction-to-front-end-development
+coursera,build a full website using wordpress,not paid ,0,"3,478",4.4,250,2,advanced,stacey shanklin langford,https://in.coursera.org/projects/build-a-full-website-using-wordpress
+coursera,Responsive Website Development and design specialization,paid,"8,058","3,793",4.6,98,980,beginner,Matthew yee king ,https://in.coursera.org/specializations/website-development
+coursera,The full stack development,paid,"3,233",33,4.7,502,21,intermediate,not mentioned ,https://in.coursera.org/learn/the-full-stack
+coursera,google ux design ,paid,"2,302","59,965",4.8,1000,60,beginner,not mentioned ,https://in.coursera.org/professional-certificates/google-ux-design
+coursera,ui/ux design,paid,"8,058","6,305",4.7,500,560,beginner,Michael Worington,https://in.coursera.org/specializations/ui-ux-design
+udemy,"full stack web developer(HTML,CSS,JS)",paid,"3,399","272,609",4.7,490,65.5,all level,dr angela yu,https://www.udemy.com/course/the-complete-web-development-bootcamp/
+udemy,the web developer bootcamp 2023,paid,"3,399","256,472",4.7,619,64,all level,colt steele,https://www.udemy.com/course/the-web-developer-bootcamp/
+udemy,ios and swift: the complete ios app development,paid,"3,399","83,838",4.8,542,60.5,all level,dr angela yu,https://www.udemy.com/course/ios-13-app-development-bootcamp/
+udemy,the complete andriod 12 and kotlin course,paid,"3,399","10,387",9,299,47.5,all level,denis panjuta,https://www.udemy.com/course/android-kotlin-developer/
+udemy,statistics for ai and ml developers,paid,"2,299",3,4.5,38,6,beginner,eduonix learning solution,https://www.udemy.com/course/statistics-for-ai-ml-developers/
+udemy,ai and ml in the field of mathematics,paid,"1,999",156,3.8,43,6,beginner,eduonix learning solution,https://www.udemy.com/course/mathematics-for-ai-ml-developers-the-complete-course/
+udemy,the data science course 2023,paid,"3,399","121,145",4.6,517,32,all level,365 carrers time,https://www.udemy.com/course/the-data-science-course-complete-data-science-bootcamp/
+udemy,complete machine learning and data science,paid,"3,399","15,098",4.6,381,44,all level,andrei neagoie,https://www.udemy.com/course/complete-machine-learning-and-data-science-zero-to-mastery/
+udemy,dsa in java,paid,"2,799","1,372",4.7,113,8.5,all level,scott barrett,https://www.udemy.com/course/data-structures-and-algorithms-java/
+udemy,java dsa and algorithms masterclass,paid,"3,399","3,467",4.4,425,45.5,all level,elshad karimov,https://www.udemy.com/course/java-data-structures-and-algorithms-masterclass/
+udemy,100 days of code:web development bootcamp 2023,paid,"3,399","5,220",4.7,643,79.5,all level,maximilian,https://www.udemy.com/course/100-days-of-code-web-development-bootcamp/
+udemy,the ultimate full stack web development code,paid,"3,399","4,541",4.7,559,40,all level,kane ezki,https://www.udemy.com/course/the-ultimate-fullstack-web-development-bootcamp/
+udemy,the complete web developer course 3.0,paid,"3,399","71,075",4.7,222,31,all level,rob percival,https://www.udemy.com/course/the-complete-web-developer-course-2/
+udemy,ultimate web designer and web developer course,paid,"3,399","13,987",4.6,263,35,all level,brad hussey,https://www.udemy.com/course/web-developer-course/
+udemy,complete web and mobile designer(ui/ux),paid,"3,399","19,572",4.5,349,28,all level,daniel schanifo,https://www.udemy.com/course/complete-web-designer-mobile-designer-zero-to-mastery/
+udemy,figma ui/ux designer,paid,"3,399","13,846",4.7,111,11.5,all level,daniel walter scott,https://www.udemy.com/course/figma-ux-ui-design-user-experience-tutorial-course/
+udemy,master digital prodcut design,paid,"3,399","7,212",4.6,168,15.5,all level,rob stuclif,https://www.udemy.com/course/master-digital-product-design-ux-research-ui-design/
+udemy,ui/ux design hybrid figma to html css,paid,"3,399",706,4.5,296,31.5,all level,boroji design inc,https://www.udemy.com/course/uxdevelopment/
+udemy,the complete sql bootcamp,paid,"3,399","167,128",4.7,83,9,all level,jose portilla,https://www.udemy.com/course/the-complete-sql-bootcamp/
+udemy,the ultimate sql bootcamp 2023,paid,"3,399","79,634",4.6,652,37.5,all level,colt steele,https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/
