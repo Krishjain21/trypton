@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.108.0">
+  <title>Free for all</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/offcanvas-navbar/">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+
+  <!-- Bootstrap CSS -->
+  	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  	<!-- jQuery -->
+  	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  	<!-- Bootstrap JavaScript -->
+  	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+
+
+  <link href="/docs/5.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" href="/docs/5.3/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+  <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+  <link rel="manifest" href="/docs/5.3/assets/img/favicons/manifest.json">
+  <link rel="mask-icon" href="/docs/5.3/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+  <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon.ico">
+  <meta name="theme-color" content="#712cf9">
+
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    .b-example-divider {
+      height: 3rem;
+      background-color: rgba(0, 0, 0, .1);
+      border: solid rgba(0, 0, 0, .15);
+      border-width: 1px 0;
+      box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+    }
+
+    .b-example-vr {
+      flex-shrink: 0;
+      width: 1.5rem;
+      height: 100vh;
+    }
+
+    .bi {
+      vertical-align: -.125em;
+      fill: currentColor;
+    }
+
+    .nav-scroller {
+      position: relative;
+      z-index: 2;
+      height: 2.75rem;
+      overflow-y: hidden;
+    }
+
+    .nav-scroller .nav {
+      display: flex;
+      flex-wrap: nowrap;
+      padding-bottom: 1rem;
+      margin-top: -1px;
+      overflow-x: auto;
+      text-align: center;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+    }
+  </style>
+
+
+  <!-- Custom styles for this template -->
+  <link href="styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="trycss.css">
+</head>
+
+<body class="bg-light">
+
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark nav_bg" aria-label="Main navigation">
+    <div class="container-fluid">
+      <a href="index.html"><img src="images/icon.jfif" alt="Learn for less" class="icon"></a>
+
+      <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Profile</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Settings</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item login">
+            <a class="nav-link" href="signin.html">Login/SignUp</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="banner">
+    <div class="search-bar">
+      <h1 style="padding-left:60px; color:white;">Discover Your Perfect Course.</h1>
+      <h3 style="padding-bottom:100px; padding-left:150px; color:white;">Sorted to Perfection.</h3>
+      <form class="smaller center" role="search" action="search.html">
+        <div class="wrapper">
+          <div class="search-input">
+            <input type="search" placeholder="Search" aria-label="Search" value="">
+            <div class="autocom-box">
+              <li>web development</li>
+              <li>web development</li>
+              <li>web development</li>
+              <li>web development</li>
+              <li>web development</li>
+            </div>
+            <button class="icon"  type="submit"><img class="circle-img1" src="images/download (1).png" alt="search"></button>
+          </div>
+        </div>
+      <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success" style="background-color:green; color:white" type="submit">Search</button> -->
+      </form>
+    </div>
+  </div>
+
+
+
+
+  <div class="colored_div">
+    <div class="sorter">
+
+      <div class="dropdown ">
+        <button class="bt">Categories</button>
+        <div class="dropdown-content">
+          <label><input type="checkbox" class="cat">  Accounting & Finance</label>
+          <label><input type="checkbox" class="cat">  Creativity</label>
+          <label><input type="checkbox" class="cat">  Healthcare & Wellness</label>
+          <label><input type="checkbox" class="cat">  Law & Government</label>
+          <label><input type="checkbox" class="cat">  Marketing & Sales</label>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="sorter">
+
+      <div class="dropdown ">
+        <button class="bt">Providers</button>
+        <div class="dropdown-content">
+          <label><input type="checkbox">  CFP Board</label>
+          <label><input type="checkbox">  Elastic</label>
+          <label><input type="checkbox">  Wellingtone</label>
+          <label><input type="checkbox">  Automation Anywhere</label>
+        </div>
+
+      </div>
+    </div>
+    <div class="sorter">
+
+      <div class="dropdown ">
+        <button class="bt">Skills</button>
+        <div class="dropdown-content">
+          <label><input type="checkbox">  Adobe Xd</label>
+          <label><input type="checkbox">  Ai/Ml</label>
+          <label><input type="checkbox">  Web Development</label>
+          <label><input type="checkbox">  Law</label>
+          <label><input type="checkbox">  Personal Branding</label>
+          <label><input type="checkbox">  financial Planing</label>
+          <label><input type="checkbox">  Blockchain</label>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="sorter">
+
+      <div class="dropdown ">
+        <button class="bt">Language</button>
+        <div class="dropdown-content">
+          <label><input type="checkbox">  English</label>
+          <label><input type="checkbox">  Hindi</label>
+          <label><input type="checkbox">  Español</label>
+          <label><input type="checkbox">  Francais</label>
+          <label><input type="checkbox">  Deutsch</label>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+<div class="change">
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel"data-interval="5000" keyboard="true">
+  		<!-- Indicators -->
+  		<ul class="carousel-indicators">
+  			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+  			<li data-target="#myCarousel" data-slide-to="1"></li>
+  			<li data-target="#myCarousel" data-slide-to="2"></li>
+  		</ul>
+
+  		<!-- Wrapper for slides -->
+  		<div class="carousel-inner">
+  			<div class="carousel-item active">
+  				<div class="container">
+            <div class="card">
+              <div class="top">
+                <h2 class="name">Popular in Udemy</h2>
+                <img src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg" class="circle-img" alt="udemy logo">
+              </div>
+              <div class="bottom">
+
+                <h3>Web Development</h3>
+                <h5 >Course By: Angela Yu</h5>
+                <h5 >Lecture Hours: 75hrs</h5>
+                <h5 >Rating: 4.9 ⭐</h5>
+
+
+              </div>
+            </div>
+  				</div>
+  			</div>
+  			<div class="carousel-item">
+  				<div class="container">
+            <div class="card">
+              <div class="top">
+                <h2 class="name">Popular in Udacity</h2>
+                <img src="images/udacity-logo.png" class="circle-img" alt="udacity logo">
+              </div>
+              <div class="bottom">
+                <h3>Learn Kotlin</h3>
+                <h5 >Course By: dan Galpin</h5>
+                <h5 >Lecture Hours: 45.5hrs</h5>
+                <h5 >Rating: 4.4 ⭐</h5>
+
+              </div>
+            </div>
+  				</div>
+  			</div>
+  			<div class="carousel-item">
+  				<div class="container">
+            <div class="card">
+              <div class="top">
+                <h2 class="name">Popular in Coursera</h2>
+                <img src="images/coursera-logo.png" class="circle-img" alt="coursera logo">
+              </div>
+              <div class="bottom">
+                <h3>Algorith Part 01</h3>
+                <h5 >Course By: Kevin Wayne</h5>
+                <h5 >Lecture Hours: 28.5hrs</h5>
+                <h5 >Rating: 4.7 ⭐</h5>
+              </div>
+            </div>
+  				</div>
+  			</div>
+  		</div>
+
+  		<!-- Left and right controls -->
+  		<a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+  			<span class="carousel-control-prev-icon"></span>
+  		</a>
+  		<a class="carousel-control-next" href="#myCarousel" data-slide="next">
+  			<span class="carousel-control-next-icon"></span>
+  		</a>
+  	</div>
+
+  </div>
+
+
+
+
+
+
+
+  <script src="tryjs.js" charset="utf-8"></script>
+  <script src="suggestions.js" charset="utf-8"></script>
+  <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+<script src="offcanvas-navbar.js"></script>
+
+
+</html>
